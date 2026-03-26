@@ -17,7 +17,7 @@ export default function Home() {
           </p>
           <div className={styles.heroActions}>
             <Link href="/syllabus" className={styles.primaryBtn}>Explore Syllabus</Link>
-            <a href="#about" className={styles.secondaryBtn}>How we work</a>
+            <Link href="/contact" className={styles.secondaryBtn}>Enroll Now</Link>
           </div>
         </div>
         <div className={styles.heroVisual}>
@@ -67,8 +67,8 @@ export default function Home() {
             <div className={styles.trustCard}>
               <h3>Enrollment Open</h3>
               <p>Limited seats available for the next cohort starting next month.</p>
-              <a href="tel:9025013754" className={styles.callBtn}>Call +91 9025013754</a>
-              <p style={{ marginTop: '1.5rem', opacity: 0.7, fontSize: '0.9rem' }}>Email: johotechy@gmail.com</p>
+              <Link href="/contact" className={styles.callBtn}>Secure Your Seat</Link>
+              <p style={{ marginTop: '1.5rem', opacity: 0.7, fontSize: '0.9rem' }}>Contact: johotechy@gmail.com</p>
             </div>
           </div>
         </div>

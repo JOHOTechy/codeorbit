@@ -1,6 +1,7 @@
 import "./globals.css";
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 
 export const metadata = {
   title: "CodeOrbit | MERN Stack Training for Students",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         <main style={{ flex: 1 }}>{children}</main>
+        <FloatingWhatsApp />
         <Footer />
       </body>
     </html>

@@ -1,8 +1,8 @@
 .footer {
-  background: #020617;
+  background: #0f172a; /* Keep footer dark for better contrast or make it soft pink? I'll go with deep slate/pink for premium feel. */
+  background: linear-gradient(135deg, #1e293b, #0f172a);
   padding: 5rem 0 2rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
-  margin-top: auto;
+  border-top: 1px solid rgba(219, 39, 119, 0.2);
 }
 
 .footerContent {
@@ -35,7 +35,7 @@
 }
 
 .logoAccent {
-  color: #3b82f6;
+  color: #db2777;
   position: relative;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .footerLinks a:hover {
-  color: #3b82f6;
+  color: #db2777;
   padding-left: 0.5rem;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .contactLink:hover {
-  color: #3b82f6;
+  color: #db2777;
   text-decoration: underline;
 }
 

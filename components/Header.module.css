@@ -2,10 +2,10 @@
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(2, 6, 23, 0.7);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(219, 39, 119, 0.1);
   height: 80px;
   display: flex;
   align-items: center;
@@ -31,11 +31,11 @@
 }
 
 .logoText {
-  color: #f8fafc;
+  color: #1e293b;
 }
 
 .logoAccent {
-  color: #3b82f6;
+  color: #db2777;
   position: relative;
 }
 
@@ -46,7 +46,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  background: linear-gradient(90deg, #db2777, #f43f5e);
   border-radius: 2px;
 }
 
@@ -59,12 +59,12 @@
 .nav a {
   font-weight: 500;
   font-size: 0.95rem;
-  color: #94a3b8;
+  color: #64748b;
   position: relative;
 }
 
 .nav a:not(.contactBtn):hover {
-  color: #f8fafc;
+  color: #db2777;
 }
 
 .nav a:not(.contactBtn)::after {
@@ -74,7 +74,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #3b82f6;
+  background: #db2777;
   transition: width 0.3s ease;
 }
 
@@ -83,17 +83,17 @@
 }
 
 .contactBtn {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  background: linear-gradient(135deg, #db2777, #be185d);
   color: white !important;
   padding: 0.6rem 1.4rem;
   border-radius: 50px;
   font-weight: 600;
-  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 4px 15px rgba(219, 39, 119, 0.2);
 }
 
 .contactBtn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 6px 20px rgba(219, 39, 119, 0.4);
 }
 
 @media (max-width: 768px) {

@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import CourseDetails from '@/components/CourseDetails';
+import OtherCourses from '@/components/OtherCourses';
 import Link from 'next/link';
 
 export default function Home() {
@@ -12,7 +13,7 @@ export default function Home() {
             From Concept to <span className={styles.highlight}>Code</span>
           </h1>
           <p className={styles.heroText}>
-            Join the elite circle of full-stack developers. We provide tailored MERN training sessions focused on real-world projects, industry standards, and hands-on experience.
+            Join the elite circle of full-stack developers. We provide tailored training sessions focused on real-world projects, industry standards, and hands-on experience.
           </p>
           <div className={styles.heroActions}>
             <Link href="/syllabus" className={styles.primaryBtn}>Explore Syllabus</Link>
@@ -43,6 +44,8 @@ export default function Home() {
       </header>
 
       <CourseDetails />
+      
+      <OtherCourses />
 
       <section id="about" className={styles.aboutSection}>
         <div className={styles.aboutWrapper}>
@@ -65,7 +68,7 @@ export default function Home() {
               <h3>Enrollment Open</h3>
               <p>Limited seats available for the next cohort starting next month.</p>
               <a href="tel:9025013754" className={styles.callBtn}>Call +91 9025013754</a>
-              <p style={{ marginTop: '1.5rem', opacity: 0.7, fontSize: '0.9rem' }}>Contact: johotechy@gmail.com</p>
+              <p style={{ marginTop: '1.5rem', opacity: 0.7, fontSize: '0.9rem' }}>Email: johotechy@gmail.com</p>
             </div>
           </div>
         </div>
